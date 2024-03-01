@@ -1,0 +1,33 @@
+.item {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 15px;
+
+    // opacity: 1;
+    // transform: TranslateY(20px);
+    // transition: opacity 5s, transform 5s;
+}
+
+
+/* .item-enter {
+    opacity: 0;
+    transform: TranslateY(20px);
+} */
+
+// .item-enter-active {
+//     opacity: 0;
+//     transform: TranslateY(0);
+// }
+
+/* .item-exit {
+    opacity: 1;
+    transform: TranslateY(0);
+} */
+
+// .item-exit-active {
+//     opacity: 1;
+//     transform: TranslateY(20px);
+// }
