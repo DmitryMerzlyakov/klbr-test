@@ -9,13 +9,13 @@ type IProps = {
 
 export const Item: FC<IProps> = ({ item }) => {
   return (
-    <motion.div
+    <motion.li
       className={style.item}
       initial={{ opacity: 0, y: 100, scale: 0.5 }}
       animate={{ opacity: 1, y: 0, scale: 1 }}
       transition={{ duration: 1 }}>
       <p>Name: {item.name}</p>
       <p>Surname: {item.surname}</p>
-    </motion.div>
+    </motion.li>
   );
 };

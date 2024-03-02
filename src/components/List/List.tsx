@@ -43,16 +43,18 @@ export const List: FC = () => {
   }
 
   return (
-    <div className={style.list}>
-      {array?.slice(0, elemOnPage).map((item, index) => (
-        <Item key={index} item={item} />
-      ))}
+    <>
+      <ul className={style.list}>
+        {array?.slice(0, elemOnPage).map((item, index) => (
+          <Item key={index} item={item} />
+        ))}
+      </ul>
       <button
         disabled={checkDisabled()}
         onClick={handleShow}
         className={style.button}>
         Показать ещё
       </button>
-    </div>
+    </>
   );
 };
